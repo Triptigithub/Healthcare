@@ -19,17 +19,6 @@ This single-page React application represents a clean, minimalist healthcare das
 
 The project uses mock data for all visual elements passed via props, focusing entirely on UI fidelity without interactive functionality.
 
----
-
-## Live Demo
-
-[Live Site URL here]  
-
----
-
-## Screenshot
-
-![Dashboard Screenshot](https://i.ibb.co/B2DdGkgF/Screenshot-2025-05-23-at-3-31-31-PM.png)
 
 ---
 
@@ -51,19 +40,6 @@ The project uses mock data for all visual elements passed via props, focusing en
 - JavaScript for mock data management
 - Vite (or create-react-app) for project setup and development
 
----
-
-## Project Structure
-src/
-├── assets/ # Static images and SVGs
-├── components/ # React components (Header, Sidebar, DashboardMainContent, etc.)
-├── data/ # Static mock data (appointments, health status, navigation links)
-├── styles/ # CSS Modules for styling components
-├── App.jsx # Root component orchestrating layout
-├── main.jsx # Entry point
-└── index.css # Global styles
-
-
 
 ---
 
@@ -76,8 +52,8 @@ src/
 
 ### Installation
 
-1. Clone the repository:
 
+1.Clone the repo:
 ```bash
 git clone https://github.com/yourusername/healthcare-dashboard.git
 cd healthcare-dashboard
@@ -98,5 +74,3 @@ yarn dev
 4.Open your browser at http://localhost:3000 to view the dashboard.
 
 
-### Deployment
-The app is deployed on [Vercel] at:[healthcare-mu-pearl.vercel.app]
